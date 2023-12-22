@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+.main_heading {
+  font-weight: 600;
+  color: hsl(0deg, 0%, 100%);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.themes {
+  font-weight: 700;
+  width: 110px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.themes .themes-title {
+  font-size: 12px;
+}
+.themes .toggle-theme-contain {
+  width: 55px;
+}
+.themes .toggle-theme-contain .number-toogle {
+  font-size: 10px;
+  margin: 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+.themes .toggle-theme-contain .toogle {
+  background-color: hsl(223deg, 31%, 20%);
+  border-radius: 12px;
+  padding: 4px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.themes .toggle-theme-contain .toogle .buttonTheme {
+  border: none;
+  width: 12px;
+  height: 12px;
+  background-color: hsl(6deg, 63%, 50%);
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.output {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 1.25rem;
+  background-color: hsl(224deg, 36%, 15%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.items {
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 1rem;
+  background-color: hsl(223deg, 31%, 20%);
+}
+
+.item {
+  border: none;
+  border-radius: 6px;
+  padding: 1rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(221deg, 14%, 31%);
+  cursor: pointer;
+}
+
+.span-reset {
+  grid-column: 1/3;
+  grid-row: 5/6;
+}
+
+.span-dengan {
+  grid-column: 3/5;
+  grid-row: 5/6;
+}
+
+.key-light {
+  background-color: hsl(30deg, 25%, 89%);
+  box-shadow: 0 4px hsl(28deg, 16%, 65%);
+}
+
+.key-blue {
+  background-color: hsl(225deg, 21%, 49%);
+  box-shadow: 0 4px hsl(224deg, 28%, 35%);
+  color: white;
+  font-size: 16px;
+}
+
+.key-orange {
+  background-color: hsl(6deg, 63%, 50%);
+  box-shadow: 0 4px hsl(6deg, 70%, 34%);
+  color: white;
+  font-size: 18px;
+}
+
+.output {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1.25rem;
+  background-color: hsl(224deg, 36%, 15%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.items {
+  border-radius: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 1rem;
+  background-color: hsl(223deg, 31%, 20%);
+}
+
+.item {
+  border: none;
+  border-radius: 6px;
+  padding: 1rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: hsl(221deg, 14%, 31%);
+  cursor: pointer;
+}
+
+.span-reset {
+  grid-column: 1/3;
+  grid-row: 5/6;
+}
+
+.span-dengan {
+  grid-column: 3/5;
+  grid-row: 5/6;
+}
+
+.key-light {
+  background-color: hsl(30deg, 25%, 89%);
+  box-shadow: 0 4px hsl(28deg, 16%, 65%);
+}
+
+.key-blue {
+  background-color: hsl(225deg, 21%, 49%);
+  box-shadow: 0 4px hsl(224deg, 28%, 35%);
+  color: white;
+  font-size: 16px;
+}
+
+.key-orange {
+  background-color: hsl(6deg, 63%, 50%);
+  box-shadow: 0 4px hsl(6deg, 70%, 34%);
+  color: white;
+  font-size: 18px;
+}
+
+.main_footer {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  text-align: center;
+  color: hsl(224deg, 36%, 15%);
+}
+.main_footer a {
+  text-decoration: none;
+  color: hsl(30deg, 25%, 89%);
+}
+
+body {
+  padding: 2rem;
+  background-color: hsl(222deg, 26%, 31%);
+}
+
+main {
+  margin: 2rem auto;
+  padding-top: 1rem;
+  background-color: hsl(222deg, 26%, 31%);
+  width: 500px;
+  width: 300px;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    width: 500px;
+  }
+  .items {
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=main.css.map */

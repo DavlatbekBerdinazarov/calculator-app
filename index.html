@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="#" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <main>
+      <section class="main_heading">
+        <div class="title textTheme">calc</div>
+        <div class="themes">
+          <div class="themes-title textTheme">THEME</div>
+          <div class="toggle-theme-contain">
+            <div class="number-toogle">
+              <span class="textTheme">1</span>
+              <span class="textTheme">2</span>
+              <span class="textTheme">3</span>
+            </div>
+            <div class="toogle">
+              <!-- change theme click -->
+              <button class="buttonTheme toogle-bg" id="1"></button>
+              <button class="buttonTheme toogle-bg" id="2"></button>
+              <button class="buttonTheme toogle-bg" id="3"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main_body">
+        <div class="output textTheme">
+          <div class="previos"></div>
+          <!-- <div class="current">399,981</div> -->
+          <div class="current"></div>
+        </div>
+        <div class="items">
+          <button number class="item key-light key-bg-first">7</button>
+          <button number class="item key-light key-bg-first">8</button>
+          <button number class="item key-light key-bg-first">9</button>
+          <button deleted class="item color-white key-blue key-bg-last">del</button>
+          <button number class="item key-light key-bg-first">4</button>
+          <button number class="item key-light key-bg-first">5</button>
+          <button number class="item key-light key-bg-first">6</button>
+          <button operand class="item key-light key-bg-first">+</button>
+          <button number class="item key-light key-bg-first">1</button>
+          <button number class="item key-light key-bg-first">2</button>
+          <button number class="item key-light key-bg-first">3</button>
+          <button operand class="item key-light key-bg-first">-</button>
+          <button number class="item key-light key-bg-first">,</button>
+          <button number class="item key-light key-bg-first">0</button>
+          <button operand class="item key-light key-bg-first">/</button>
+          <button operand class="item key-light key-bg-first">x</button>
+          <button reset class="item color-white span-reset key-blue key-bg-last">RESET</button>
+          <!-- <button class="item bg-light">span-two</button> -->
+          <button samaDengan class="item span-dengan key-orange key-bg-middle samaDengan-bg color-white" id="cape">=</button>
+          <!-- <button class="item">span-two</button> -->
+        </div>
+      </section>
+      <section class="main_footer">
+        <h1 class="created">created by <a href="https://github.com/ziss25" target="_blank" class="foot">ziss</a></h1>
+      </section>
+    </main>
+    <!-- udah selesai -->
+    <script src="build/javaScript/changeTheme.js"></script>
+    <script src="build/javaScript/calculator-script.js"></script>
+  </body>
+</html>

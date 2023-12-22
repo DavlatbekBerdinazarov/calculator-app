@@ -1,0 +1,50 @@
+// --- main heading---
+.main_heading {
+  font-weight: 600;
+  color: $White;
+  margin-bottom: 1rem;
+  @include myFlex(center, space-between);
+  //   @include myBorder();
+}
+.title {
+  font-size: 1.5rem;
+}
+.themes {
+  font-weight: 700;
+  // color: red;
+  width: 110px;
+  //   @include myBorder(blue);
+  @include myFlex(flex-end, space-between);
+  //   margin-top: -6px;
+  .themes-title {
+    font-size: 12px;
+  }
+  .toggle-theme-contain {
+    width: 55px;
+    // @include myBorder(blue);
+    .number-toogle {
+      font-size: 10px;
+      margin: 0 6px;
+      @include myFlex(center, space-between);
+      margin-bottom: 3px;
+    }
+    .toogle {
+      background-color: $VD-desaturated-blue-tk;
+      @include border-radius();
+      padding: 4px 3px;
+      @include myFlex(center, space-between);
+      .buttonTheme {
+        border: none;
+        width: 12px;
+        height: 12px;
+        background-color: $Red;
+        cursor: pointer;
+        @include border-radius();
+      }
+    }
+  }
+}
+// .buttonTheme {
+//   background-color: red;
+// }
+// --- main body -----

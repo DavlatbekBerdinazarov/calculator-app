@@ -1,0 +1,35 @@
+// modules scss
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap');
+@import 'variable';
+@import 'mixin';
+@import 'reset';
+@import 'mainHeader';
+@import 'mainBody';
+@import 'mainBody';
+@import 'mainFooter';
+
+// container main
+body {
+  padding: 2rem;
+  //   height: 100vh;
+  //   @include myFlex(center, center);
+  background-color: $VD-desaturated-blue-m;
+}
+main {
+  //   border: 1px solid red;
+  margin: 2rem auto;
+  padding-top: 1rem;
+  background-color: $VD-desaturated-blue-m;
+  width: 500px;
+  width: 300px;
+}
+
+//responsive
+@media only screen and (min-width: 600px) {
+  main {
+    width: 500px;
+  }
+  .items {
+    gap: 1rem;
+  }
+}

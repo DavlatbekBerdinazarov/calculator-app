@@ -1,0 +1,61 @@
+.main_body {
+  // ntah
+}
+.output {
+  @include border-radius();
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 1.25rem;
+  background-color: $VD-desaturated-blue-s;
+  color: $White;
+  font-size: 2.2rem;
+  height: 100px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.items {
+  @include border-radius();
+  //   @include myBorder();
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 1rem;
+  background-color: $VD-desaturated-blue-tk;
+}
+
+// class utilitis / Modifier
+.item {
+  border: none;
+  border-radius: 6px;
+  padding: 1rem 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $VD-grayish-blue;
+  cursor: pointer;
+  // color: hsl(60, 10%, 19%);
+}
+.span-reset {
+  grid-column: 1 / 3;
+  grid-row: 5 / 6;
+}
+.span-dengan {
+  grid-column: 3 / 5;
+  grid-row: 5 / 6;
+}
+.key-light {
+  background-color: $Light-grayish-orange;
+  box-shadow: 0 4px $Grayish-orange;
+}
+.key-blue {
+  background-color: $Desaturated-dark-blue-bgkey;
+  box-shadow: 0 4px $Desaturated-dark-blue;
+  color: white;
+  font-size: 16px;
+}
+.key-orange {
+  background-color: $Red;
+  box-shadow: 0 4px $Dark-red;
+  color: white;
+  font-size: 18px;
+}

@@ -1,0 +1,12 @@
+// mixin
+@mixin myFlex($align, $justy) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justy;
+}
+@mixin myBorder($color: red) {
+  border: 1px solid $color;
+}
+@mixin border-radius {
+  border-radius: 12px;
+}
